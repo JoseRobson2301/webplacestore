@@ -83,10 +83,6 @@ main section {
   padding: 24px 40px;
   border: none;
   cursor: pointer;
-  position: relative;
-  left: 5rem;
-  width: 70rem;
-  border-radius: 100px;
   }
 
   main section#contato form input[type="submit"]:hover {
