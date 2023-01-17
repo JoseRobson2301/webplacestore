@@ -80,6 +80,7 @@ main section {
   main section#contato form input[type="submit"] {
   padding: 10px 20px;
   background-color: blue;
+  border: none;
   color: white;
   border-radius: 10px;
   font-size: 20px;
@@ -102,5 +103,6 @@ main section {
 
   .button-enviar:hover{
   background-color: red;
+  border: none;
   transition: background-color 0.5s;
   }
