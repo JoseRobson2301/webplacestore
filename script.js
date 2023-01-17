@@ -1,4 +1,4 @@
-$(document).ready(function(){
+(document).ready(function(){
   $("button-enviar").click(function(){
     $("button-enviar").animate({ 
       backgroundColor:"blue"
