@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("button-enviar").click(function(){
-    $("button-enviar").animate({ 
+  $("main section#contato form input").click(function(){
+    $("main section#contato form input").animate({ 
       backgroundColor: "blue"
     }, 1000);
   });
