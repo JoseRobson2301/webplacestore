@@ -4,7 +4,18 @@
     <title>WebPlaceStore</title>
     <link rel="stylesheet" type="text/css" href=".\style.css">
   </head>
-  <body>
+  <body onload="checkAuth()">
+  <div id="lockScreen">
+   <!-- conteúdo da tela de bloqueio -->
+     <form>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit" onclick="unlock()">Desbloquear</button>
+      </form>
+  </div>
+  <div id="appContent" style="display:none;">
+    <!-- conteúdo da aplicação -->
+  </div>
     <header>
       <h1>WebPlaceStore</h1>
       <nav>
