@@ -101,7 +101,7 @@ main section {
   margin: 0;
   }
 
-  .button-enviar:hover{
+  ain section#contato form input[type="submit"]:hover{
   background-color: red;
   border: none;
   transition: background-color 0.5s;
