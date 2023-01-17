@@ -88,7 +88,7 @@ main section {
   box-shadow: none;
   width: 100%;
     
-  animation: pulse 1s linear;
+  animation: none 1s linear;
   }
 
   footer {
