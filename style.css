@@ -87,10 +87,6 @@ main section {
   cursor: pointer;
   }
 
-  main section#contato form input[type="submit"]:hover {
-  background-color: #0082cc;
-  }
-
   footer {
   background-color: #f1f1f1;
   text-align: center;
