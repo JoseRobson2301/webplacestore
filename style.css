@@ -78,12 +78,6 @@ main section {
   }
 
   main section#contato form input[type="submit"] {
-  background-color: #00bfff;
-  color: white;
-  padding: 24px 40px;
-  border: none;
-  cursor: pointer;
-    
   padding: 10px 20px;
   background-color: blue;
   color: white;
