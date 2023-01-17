@@ -4,30 +4,7 @@
     <title>WebPlaceStore</title>
     <link rel="stylesheet" type="text/css" href=".\style.css">
   </head>
-  <body onload="checkAuth()">
-  <div id="lockScreen">
-   <!-- conteúdo da tela de bloqueio -->
-    <section id="contato">
-          <h2>Contato</h2>
-          <form action="https://api.sheetmonkey.io/form/9D4fGFQEPzfm1BqpuSucxA" method="POST">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
-          <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem"></textarea>
-          <br>
-          <input class="button-enviar" type="submit" value="Enviar">
-     </section>
-     <form>
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password">
-        <button type="submit" onclick="unlock()">Desbloquear</button>
-      </form>
-  </div>
-  <div id="appContent" style="display:none;">
-    <!-- conteúdo da aplicação -->
-  </div>
+  <body>
     <header>
       <h1>WebPlaceStore</h1>
       <nav>
@@ -43,7 +20,18 @@
         <h2>Sobre Nós</h2>
         <p>A CRIATIVIDADE É A INTELIGÊNCIA SE DIVERTINDO</p>
       </section>
-      < --!aqui tem algo-->
+    <section id="contato">
+          <h2>Contato</h2>
+          <form action="https://api.sheetmonkey.io/form/9D4fGFQEPzfm1BqpuSucxA" method="POST">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea>
+          <br>
+          <input class="button-enviar" type="submit" value="Enviar">
+     </section>
     </main>
     <footer>
       <p>Copyright © 2023 WebPlaceStore | criado por jose robson</p>
@@ -51,25 +39,6 @@
   </body>
     
   <script src=".\script.js" type="text/javascript">
-     function checkAuth() {
-      if (!isAuthenticated()) {
-        document.getElementById("lockScreen").style.display = "block";
-        document.getElementById("appContent").style.display = "none";
-      } else {
-        document.getElementById("lockScreen").style.display = "none";
-        document.getElementById("appContent").style.display = "block";
-      }
-    }
-    function unlock() {
-      const password = document.getElementById("password").value;
-      if (password === "minhasenha") {
-        document.getElementById("lockScreen").style.display = "none";
-        document.getElementById("appContent").style.display = "block";
-      } else {
-        alert("Senha incorreta, tente novamente.");
-      }
-    }
-    checkAuth();
   </script>
     
 </html>
