@@ -54,6 +54,7 @@ main section {
 
   main section#sobre p {
   line-height: 1.5;
+  color: white;
   }
 
   main section#produtos ul {
