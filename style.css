@@ -98,3 +98,17 @@ main section {
   footer p {
   margin: 0;
   }
+
+  .button-enviar {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  }
+
+  .button-enviar:hover{
+  background-color: red;
+  transition: background-color 0.5s;
+  }
