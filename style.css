@@ -79,7 +79,7 @@ main section {
 
   main section#contato form input[type="submit"] {
   padding: 10px 20px;
-  background-color: blue;
+  background-color: #0082cc;
   border: none;
   color: white;
   border-radius: 10px;
@@ -97,12 +97,6 @@ main section {
 
   footer p {
   margin: 0;
-  }
-
-  main section#contato form input[type="submit"]:hover{
-  background-color: red;
-  border: none;
-  transition: background-color 0.5s;
   }
 
   @keyframes pulse {
