@@ -85,6 +85,8 @@ main section {
   border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
+    
+  animation: pulse 1s infinite;
   }
 
   footer {
@@ -97,8 +99,20 @@ main section {
   margin: 0;
   }
 
-  ain section#contato form input[type="submit"]:hover{
+  main section#contato form input[type="submit"]:hover{
   background-color: red;
   border: none;
   transition: background-color 0.5s;
   }
+
+  @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
