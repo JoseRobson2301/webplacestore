@@ -1,3 +1,2 @@
 # webplacestore
-É um site que está linkado com o sheet .xlsx
-um teste para algo futuro ^^
+Um formulário Beta que em breve irei usar códigos para ultilizar em outro projeto.
