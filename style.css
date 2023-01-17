@@ -7,6 +7,7 @@ body {
 header {
   background-color: #58a5a9;
   padding: 20px;
+  color: white;
 }
 
 header h1 {
@@ -44,6 +45,7 @@ main {
 
 main h2 {
   margin: 0;
+  color: white;
 }
 
 main section {
@@ -67,6 +69,7 @@ main section {
   main section#contato form label {
   display: block;
   margin-bottom: 5px;
+  color: white;
   }
 
   main section#contato form input[type="text"],
