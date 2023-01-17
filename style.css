@@ -103,6 +103,7 @@ main section {
 
   footer p {
   margin: 0;
+  color: white;
   }
 
   main section#contato form input[type="submit"]:hover{
