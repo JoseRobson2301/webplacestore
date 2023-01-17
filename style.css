@@ -78,13 +78,14 @@ main section {
   }
 
   main section#contato form input[type="submit"] {
-  padding: 10px 20px;
-  background-color: #0082cc;
-  border: none;
+  padding: 20px 40px;
+  background-color: #0077b5;
   color: white;
-  border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
+  border: none;
+  box-shadow: none;
+  width: 100%;
     
   animation: pulse 1s linear;
   }
