@@ -86,7 +86,7 @@ main section {
   font-size: 20px;
   cursor: pointer;
     
-  animation: pulse 1s infinite;
+  animation: pulse 1s linear;
   }
 
   footer {
@@ -97,6 +97,12 @@ main section {
 
   footer p {
   margin: 0;
+  }
+
+  main section#contato form input[type="submit"]:hover{
+  background-color: red;
+  border: none;
+  transition: background-color 0.5s;
   }
 
   @keyframes pulse {
