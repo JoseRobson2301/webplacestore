@@ -8,7 +8,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #6e45e2, #88d3ce);
+    background-image: linear-gradient(120deg, #6e45e2, #88d3ce);
     display: flex;
     align-items: center;
     justify-content: center;
