@@ -1,18 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" src="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>WebPlaceStore</title>
-</head>
-<body>
-    <div id="lockScreen" class="hidden">Bloqueado</div>
-    <button id="lockBtn">Bloquear</button>
-    <button id="unlockBtn">Desbloquear</button>
-</body>
- <!---   <script src="./script.js" type="text/javascript">
-
-
-    </script>--->
+    <link rel="stylesheet" type="text/css" href=".\style.css">
+  </head>
+  <body>
+    <header>
+      <h1>WebPlaceStore</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>ESTAMOS FAZENDO MANUTENÇÃO DO SITE, ESPERA SEU PORRA  😡 😡 😡</p>
+      </section>
+    <!--     <section id="produtos">
+        <h2>Produtos</h2>
+  OCULTO:    <ul>
+          <li>Produto 1</li>
+          <li>Produto 2</li>
+          <li>Produto 3</li>
+        </ul>
+      </section> -->
+      <section id="contato">
+          <h2>Contato</h2><br>
+          <form action="https://api.sheetmonkey.io/form/9D4fGFQEPzfm1BqpuSucxA" method="POST">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea>
+          <input class="button-enviar" type="submit" value="Enviar">
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 webplaceweb</p>
+    </footer>
+  </body>
 </html>
